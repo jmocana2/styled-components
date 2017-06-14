@@ -1,4 +1,6 @@
 // Core
+import '../src/components/core/Carrusel/stories';
+import '../src/components/core/Pelicula/stories';
 import '../src/components/core/ArticleAuthor/stories';
 import '../src/components/core/Button/stories';
 import '../src/components/core/Collapsible/stories';
