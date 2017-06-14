@@ -1,0 +1,35 @@
+exports[`Normal`] = `
+<button
+  className="iaCmgk"
+  disabled={false}
+  onClick={[Function]}>
+  Click me!
+</button>
+`;
+
+exports[`Normal disabled`] = `
+<button
+  className="iaCmgk"
+  disabled={true}
+  onClick={[Function]}>
+  Click me!
+</button>
+`;
+
+exports[`Round`] = `
+<button
+  className="cnsZgC"
+  disabled={false}
+  onClick={[Function]}>
+  +
+</button>
+`;
+
+exports[`Round disabled`] = `
+<button
+  className="cnsZgC"
+  disabled={true}
+  onClick={[Function]}>
+  +
+</button>
+`;

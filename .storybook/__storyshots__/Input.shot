@@ -1,0 +1,177 @@
+exports[`Disabled`] = `
+<div
+  className="a">
+  <label>
+    
+  </label>
+  <input
+    className="ctkzxX"
+    disabled={true}
+    maxLength={50}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyPress={[Function]}
+    placeholder="Escribe algo"
+    required={false}
+    type="text"
+    value="Campo deshabilitado :(" />
+</div>
+`;
+
+exports[`Multiline`] = `
+<div
+  className="a">
+  <label>
+    
+  </label>
+  <textarea
+    className="ctkzxX"
+    disabled={false}
+    maxLength={50}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyPress={[Function]}
+    placeholder="Escribe algo"
+    required={false}
+    rows={0}
+    type="text"
+    value="" />
+</div>
+`;
+
+exports[`Multiline 10 rows`] = `
+<div
+  className="a">
+  <label>
+    
+  </label>
+  <textarea
+    className="ctkzxX"
+    disabled={false}
+    maxLength={50}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyPress={[Function]}
+    placeholder="Escribe algo"
+    required={false}
+    rows={10}
+    type="text"
+    value="" />
+</div>
+`;
+
+exports[`Multiline disabled`] = `
+<div
+  className="a">
+  <label>
+    
+  </label>
+  <textarea
+    className="ctkzxX"
+    disabled={true}
+    maxLength={50}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyPress={[Function]}
+    placeholder="Escribe algo"
+    required={false}
+    rows={0}
+    type="text"
+    value="Campo deshabilitado :(" />
+</div>
+`;
+
+exports[`Multiline inválido`] = `
+<div
+  className="a">
+  <label>
+    
+  </label>
+  <textarea
+    className="ctkzxX"
+    disabled={false}
+    maxLength={50}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyPress={[Function]}
+    placeholder="Escribe algo"
+    required={false}
+    rows={10}
+    type="text"
+    value="" />
+  <span>
+    Valor inválido
+  </span>
+</div>
+`;
+
+exports[`Normal`] = `
+<div
+  className="a">
+  <label>
+    Dirección
+  </label>
+  <input
+    className="ctkzxX"
+    disabled={false}
+    maxLength={50}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyPress={[Function]}
+    placeholder="Escribe algo..."
+    required={false}
+    type="text"
+    value="" />
+</div>
+`;
+
+exports[`Normal inválido`] = `
+<div
+  className="a">
+  <label>
+    
+  </label>
+  <input
+    className="ctkzxX"
+    disabled={false}
+    maxLength={50}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyPress={[Function]}
+    placeholder="Escribe algo..."
+    required={false}
+    type="text"
+    value="" />
+  <span>
+    Valor inválido
+  </span>
+</div>
+`;
+
+exports[`Normal maxLength 10`] = `
+<div
+  className="a">
+  <label>
+    
+  </label>
+  <input
+    className="ctkzxX"
+    disabled={false}
+    maxLength={10}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyPress={[Function]}
+    placeholder="Escribe algo"
+    required={false}
+    type="text"
+    value="" />
+</div>
+`;

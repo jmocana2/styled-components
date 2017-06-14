@@ -1,0 +1,45 @@
+exports[`Test`] = `
+<div
+  className="foqgVb">
+  <div
+    className="a">
+    <label>
+      
+    </label>
+    <input
+      className="ctkzxX"
+      disabled={false}
+      maxLength={50}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyPress={[Function]}
+      placeholder="Título de la noticia"
+      required={false}
+      type="text"
+      value="" />
+  </div>
+  <div
+    className="a">
+    <label>
+      
+    </label>
+    <textarea
+      className="ctkzxX"
+      disabled={false}
+      maxLength={50}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyPress={[Function]}
+      placeholder="Entradilla de la noticia..."
+      required={false}
+      rows={0}
+      type="text"
+      value="" />
+  </div>
+  <input
+    className="foqgVb"
+    type="file" />
+</div>
+`;

@@ -1,0 +1,113 @@
+exports[`Horizontal`] = `
+<section
+  className="vNefF">
+  <ul
+    className="jZiUqt">
+    <div
+      onClick={[Function]}>
+      <li
+        className="eDFjfb"
+        id="Ensaladas"
+        label="Ensaladas">
+        Ensaladas
+      </li>
+    </div>
+    <div
+      onClick={[Function]}>
+      <li
+        className="eDFjfb"
+        id="PlatosFrios"
+        label="Platos frios">
+        Platos frios
+      </li>
+    </div>
+    <div
+      onClick={[Function]}>
+      <li
+        className="eDFjfb"
+        id="PrimerosSegundos"
+        label="Primeros y segundos">
+        Primeros y segundos
+      </li>
+    </div>
+    <div
+      onClick={[Function]}>
+      <li
+        className="eDFjfb"
+        id="SalsasPostres"
+        label="Salsas y postres">
+        Salsas y postres
+      </li>
+    </div>
+  </ul>
+  <p>
+    Tomate Bola Gajo
+  </p>
+  <p>
+    Cebolla Pelada
+  </p>
+  <p>
+    Lechuga Romana
+  </p>
+  <p>
+    Arroz Blanco
+  </p>
+</section>
+`;
+
+exports[`Vertical`] = `
+<section
+  className="grxLXS">
+  <ul
+    className="jZiUqt">
+    <div
+      onClick={[Function]}>
+      <li
+        className="itlXhT"
+        id="Ensaladas"
+        label="Ensaladas">
+        Ensaladas
+      </li>
+    </div>
+    <div
+      onClick={[Function]}>
+      <li
+        className="itlXhT"
+        id="PlatosFrios"
+        label="Platos frios">
+        Platos frios
+      </li>
+    </div>
+    <div
+      onClick={[Function]}>
+      <li
+        className="itlXhT"
+        id="PrimerosSegundos"
+        label="Primeros y segundos">
+        Primeros y segundos
+      </li>
+    </div>
+    <div
+      onClick={[Function]}>
+      <li
+        className="itlXhT"
+        id="SalsasPostres"
+        label="Salsas y postres">
+        Salsas y postres
+      </li>
+    </div>
+  </ul>
+  <p>
+    Tomate Bola Gajo
+  </p>
+  <p>
+    Cebolla Pelada
+  </p>
+  <p>
+    Lechuga Romana
+  </p>
+  <p>
+    Arroz Blanco
+  </p>
+</section>
+`;

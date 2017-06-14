@@ -1,0 +1,44 @@
+exports[`Checked`] = `
+<div
+  className="foqgVb">
+  <label>
+    Push notifications
+  </label>
+  <input
+    checked={true}
+    className="foqgVb"
+    disabled={false}
+    onChange={[Function]}
+    type="checkbox" />
+</div>
+`;
+
+exports[`Disabled`] = `
+<div
+  className="foqgVb">
+  <label>
+    Push notifications
+  </label>
+  <input
+    checked={true}
+    className="foqgVb"
+    disabled={true}
+    onChange={[Function]}
+    type="checkbox" />
+</div>
+`;
+
+exports[`Unchecked `] = `
+<div
+  className="foqgVb">
+  <label>
+    Push notifications
+  </label>
+  <input
+    checked={false}
+    className="foqgVb"
+    disabled={false}
+    onChange={[Function]}
+    type="checkbox" />
+</div>
+`;

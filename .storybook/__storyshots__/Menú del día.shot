@@ -1,0 +1,194 @@
+exports[`Vertical especial`] = `
+<div>
+  <div>
+    <img
+      alt=""
+      src="http://www.nhs.uk/Livewell/Goodfood/PublishingImages/T_0217_eating-healthily_179013608_A.jpg" />
+    <div>
+      <p>
+        MENÚ ESPECIAL
+      </p>
+      <p>
+        Objetuivo bienestar cuida tu salud
+      </p>
+    </div>
+    <div>
+      26 ENE
+    </div>
+  </div>
+  <section
+    className="grxLXS">
+    <ul
+      className="jZiUqt">
+      <div
+        onClick={[Function]}>
+        <li
+          className="jdkYOx itlXhT"
+          id="Ensaladas"
+          label={
+            <Label>
+              Ensaladas
+            </Label>
+          }>
+          <p>
+            Ensaladas
+          </p>
+        </li>
+      </div>
+      <div
+        onClick={[Function]}>
+        <li
+          className="jdkYOx itlXhT"
+          id="PlatosFrios"
+          label={
+            <Label>
+              Platos frios
+            </Label>
+          }>
+          <p>
+            Platos frios
+          </p>
+        </li>
+      </div>
+      <div
+        onClick={[Function]}>
+        <li
+          className="jdkYOx itlXhT"
+          id="PrimerosSegundos"
+          label={
+            <Label>
+              Primeros y segundos
+            </Label>
+          }>
+          <p>
+            Primeros y segundos
+          </p>
+        </li>
+      </div>
+      <div
+        onClick={[Function]}>
+        <li
+          className="jdkYOx itlXhT"
+          id="SalsasPostres"
+          label={
+            <Label>
+              Salsas y postres
+            </Label>
+          }>
+          <p>
+            Salsas y postres
+          </p>
+        </li>
+      </div>
+    </ul>
+    <div
+      className="eBIUEn">
+      <ul
+        className="jMzXig">
+        <li>
+          Tomate Bola Gajo
+        </li>
+        <li>
+          Cebolla Pelada
+        </li>
+        <li>
+          Lechuga Roamana
+        </li>
+        <li>
+          Arroz Blanco
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`Vertical normal`] = `
+<div>
+  
+  <section
+    className="grxLXS">
+    <ul
+      className="jZiUqt">
+      <div
+        onClick={[Function]}>
+        <li
+          className="jdkYOx itlXhT"
+          id="Ensaladas"
+          label={
+            <Label>
+              Ensaladas
+            </Label>
+          }>
+          <p>
+            Ensaladas
+          </p>
+        </li>
+      </div>
+      <div
+        onClick={[Function]}>
+        <li
+          className="jdkYOx itlXhT"
+          id="PlatosFrios"
+          label={
+            <Label>
+              Platos frios
+            </Label>
+          }>
+          <p>
+            Platos frios
+          </p>
+        </li>
+      </div>
+      <div
+        onClick={[Function]}>
+        <li
+          className="jdkYOx itlXhT"
+          id="PrimerosSegundos"
+          label={
+            <Label>
+              Primeros y segundos
+            </Label>
+          }>
+          <p>
+            Primeros y segundos
+          </p>
+        </li>
+      </div>
+      <div
+        onClick={[Function]}>
+        <li
+          className="jdkYOx itlXhT"
+          id="SalsasPostres"
+          label={
+            <Label>
+              Salsas y postres
+            </Label>
+          }>
+          <p>
+            Salsas y postres
+          </p>
+        </li>
+      </div>
+    </ul>
+    <div
+      className="eBIUEn">
+      <ul
+        className="jMzXig">
+        <li>
+          Tomate Bola Gajo
+        </li>
+        <li>
+          Cebolla Pelada
+        </li>
+        <li>
+          Lechuga Roamana
+        </li>
+        <li>
+          Arroz Blanco
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>
+`;

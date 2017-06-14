@@ -1,0 +1,6 @@
+exports[`Test`] = `
+<label
+  className="foqgVb">
+  Esto es un label
+</label>
+`;

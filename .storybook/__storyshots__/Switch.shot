@@ -1,0 +1,29 @@
+exports[`Check`] = `
+<div
+  className="foqgVb">
+  <label>
+    Push notifications
+  </label>
+  <input
+    checked={false}
+    className="foqgVb"
+    disabled={false}
+    onChange={[Function]}
+    type="checkbox" />
+</div>
+`;
+
+exports[`Checked by default`] = `
+<div
+  className="foqgVb">
+  <label>
+    Push notifications
+  </label>
+  <input
+    checked={true}
+    className="foqgVb"
+    disabled={false}
+    onChange={[Function]}
+    type="checkbox" />
+</div>
+`;

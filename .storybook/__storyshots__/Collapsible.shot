@@ -1,0 +1,109 @@
+exports[`Default`] = `
+<ul
+  className="gCZHMA"
+  onClick={[Function]}>
+  <div
+    onClick={[Function]}>
+    <li
+      className="ciZVYg"
+      onClick={[Function]}>
+      <div
+        className="dqQKAN">
+        Ensaladas
+      </div>
+      
+    </li>
+  </div>
+  <div
+    onClick={[Function]}>
+    <li
+      className="ciZVYg"
+      onClick={[Function]}>
+      <div
+        className="dqQKAN">
+        Platos frios
+      </div>
+      
+    </li>
+  </div>
+  <div
+    onClick={[Function]}>
+    <li
+      className="ciZVYg"
+      onClick={[Function]}>
+      <div
+        className="dqQKAN">
+        Primeros y segundos
+      </div>
+      
+    </li>
+  </div>
+  <div
+    onClick={[Function]}>
+    <li
+      className="ciZVYg"
+      onClick={[Function]}>
+      <div
+        className="dqQKAN">
+        Salsas y postres
+      </div>
+      
+    </li>
+  </div>
+</ul>
+`;
+
+exports[`Iconos`] = `
+<ul
+  className="gCZHMA"
+  onClick={[Function]}>
+  <div
+    onClick={[Function]}>
+    <li
+      className="ciZVYg"
+      onClick={[Function]}>
+      <div
+        className="dqQKAN">
+        😎 Ensaladas
+      </div>
+      
+    </li>
+  </div>
+  <div
+    onClick={[Function]}>
+    <li
+      className="ciZVYg"
+      onClick={[Function]}>
+      <div
+        className="dqQKAN">
+        😎 Platos frios
+      </div>
+      
+    </li>
+  </div>
+  <div
+    onClick={[Function]}>
+    <li
+      className="ciZVYg"
+      onClick={[Function]}>
+      <div
+        className="dqQKAN">
+        😎 Primeros y segundos
+      </div>
+      
+    </li>
+  </div>
+  <div
+    onClick={[Function]}>
+    <li
+      className="ciZVYg"
+      onClick={[Function]}>
+      <div
+        className="dqQKAN">
+        😎 Salsas y postres
+      </div>
+      
+    </li>
+  </div>
+</ul>
+`;

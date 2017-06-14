@@ -1,0 +1,49 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@kadira/storybook": "^2.35.3",
+    "@kadira/storyshots": "^2.1.0",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "enzyme": "^2.8.2",
+    "eslint": "^3.19.0",
+    "eslint-config-a3media": "^1.0.1",
+    "jest": "^19.0.2",
+    "lint-staged": "^3.3.1",
+    "nodemon": "^1.11.0",
+    "prettier": "^0.22.0",
+    "sinon": "^2.1.0",
+    "storybook-addon-specifications": "^1.0.16",
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.9.0",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.0.0-beta.6",
+    "react-test-renderer": "^15.5.4",
+    "styled-components": "^1.4.3"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors",
+    "lint": "eslint \"src/**/*.js\"",
+    "precommit": "lint-staged",
+    "storybook": "start-storybook -p 6006 -s .",
+    "build-storybook": "build-storybook",
+    "test": "jest",
+    "test-storybook": "storyshots"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix -f codeframe"
+    ]
+  }
+}
