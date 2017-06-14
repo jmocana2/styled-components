@@ -12,7 +12,7 @@ const Pelicula = ({ infoPosition, source }) => <StyledPelicula>
 </StyledPelicula>;
 
 Pelicula.propTypes = {
-  source: PropTypes.arrayOf(PropTypes.string).isRequired,
+  source: PropTypes.objectOf(PropTypes.string).isRequired,
   infoPosition: PropTypes.oneOf(['bottom', 'top']),
 };
 

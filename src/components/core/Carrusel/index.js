@@ -13,7 +13,7 @@ const Carrusel = ({ children }) => <StyledCarrusel>
 </StyledCarrusel>;
 
 Carrusel.propTypes = {
-  children: PropTypes.children
+  children: PropTypes.node
 };
 
 Carrusel.defaultProps = {
