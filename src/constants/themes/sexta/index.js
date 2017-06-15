@@ -1,6 +1,6 @@
 import styled, { injectGlobal, css } from 'styled-components';
-import normalize from '../../utils/normalize';
-import { palette, breakpoints, zindex, fontSize, canales } from '../variables';
+import normalize from '../../../utils/normalize';
+import { palette, breakpoints, zindex, fontSize, canales } from './variables';
 
 injectGlobal`
   ${normalize()}
@@ -59,7 +59,7 @@ injectGlobal`
   }
 `;
 
-const Antena3 = {
+const Sexta = {
   palette,
   breakpoints,
   zindex,
@@ -71,7 +71,7 @@ const Antena3 = {
 
   // Crrusel Component
   Carrusel: {
-    arrowsColor: palette.primary2Color
+    arrowsColor: palette.primary1Color
   },
 
   // Pelicula Component
@@ -80,4 +80,4 @@ const Antena3 = {
   }
 };
 
-export { Antena3 };
+export { Sexta };

@@ -12,5 +12,5 @@ const source = {
 };
 
 storiesOf('Componente cerrado: Pelicula', module)
-  .add('info botttom', () => <Pelicula source={source} canal="neox" />)
-  .add('info top', () => <Pelicula source={source} infoPosition="top" />);
+  .add('info botttom', () => <Pelicula source={source} canal="sexta" />)
+  .add('info top', () => <Pelicula source={source} infoPosition="top" canal="sexta" />);
