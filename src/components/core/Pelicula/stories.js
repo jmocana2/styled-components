@@ -11,8 +11,6 @@ const source = {
   }
 };
 
-storiesOf('Pelicula', module).add('info botttom', () => (
-  <Pelicula source={source} />
-)).add('info top', () => (
-  <Pelicula source={source} infoPosition="top" />
-));
+storiesOf('Componente cerrado: Pelicula', module)
+  .add('info botttom', () => <Pelicula source={source} canal="neox" />)
+  .add('info top', () => <Pelicula source={source} infoPosition="top" />);

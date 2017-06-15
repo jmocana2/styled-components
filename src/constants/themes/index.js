@@ -1,6 +1,10 @@
 import styled, { injectGlobal, css } from 'styled-components';
+import normalize from '../../utils/normalize';
+import { palette, breakpoints, zindex, fontSize, canales } from '../variables';
 
 injectGlobal`
+  ${normalize()}
+
   @font-face {
     font-family: 'Roboto';
     src: url('../../public/fonts/roboto-regular.woff2') format('woff2'),
@@ -48,66 +52,32 @@ injectGlobal`
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-  *, :after, :before {
-    box-sizing: border-box;
-    outline: none;
-//    margin: 0;
+    background: #f9f9fb;
   }
   a, button {
     cursor: pointer;
   }
 `;
 
-const Button = styled.button`
-  cursor: pointer;
-  line-height: 1.42857143;
-  touch-action: manipulation;
-  user-select: none;
-  outline:0;
-`;
+const Antena3 = {
+  palette,
+  breakpoints,
+  zindex,
+  fontSize,
+  canales,
+  // ================
+  // CORE COMPONENTS
+  // ================
 
-const Theme = {
-  bodyBackground: '#181818', // 3
-  barBackground: '#272727',
-  icoPlusBackground: '#404040',
-  icoPlusColor: '#1d1d1d', // 3
-  followTickColor: '#00be2d',
-  followTextColor: '#fff', // 2
-  verRelacionadosBackground: '#1d1d1d',
-  colorContainerTituloTiempo: '#f8f8f8',
-  tiempoVideoColor: '#666',
-  relatedTextoColor: '#fff',
-  containerFiltroVideoBackground: '#1d1d1d',
-  listBackground: '#181818',
-  backgroundContainerTituloTiempo: '#181818',
-  category: {
-    news: 'red',
-    sports: 'blue',
-    programs: 'orange'
+  // Crrusel Component
+  Carrusel: {
+    arrowsColor: palette.primary2Color
+  },
+
+  // Pelicula Component
+  Pelicula: {
+    borderColor: palette.primary1Color
   }
 };
 
-const LabelEffect = css`
-  display: block;
-  background: #272727;
-  color: #666;
-  left: 2px;
-  padding: 0 10px;
-  position: absolute;
-  top: -6px;
-  -webkit-transition: .2s;
-  transition: .2s;
-  opacity: 0;
-`;
-
-const FocusEffect = css`
-  &:focus+label {
-    top: -6px;
-    font-size: 12px;
-    z-index: 2;
-    opacity: 1;
-  }
-`;
-
-export { Button, Theme, LabelEffect, FocusEffect };
+export { Antena3 };
